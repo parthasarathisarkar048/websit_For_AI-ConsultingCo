@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XYZ | Data-Driven Insights & AI Solutions</title>
+    <meta name="description"
+        content="XYZ provides high-end data analytics consultation, AI, ML, and business intelligence solutions for global enterprises.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<header class="navbar">
+    <div class="container">
+        <a href="#home" class="logo">
+            <img src="./assets/logo.png" alt="INS Analytics Logo" class="logo-img">
+        </a>
+
+        <nav class="nav-links">
+            <a href="#home" class="active">Home</a>
+            <a href="#services">Services</a>
+            <a href="#industries">Industries</a>
+            <a href="#about">About</a>
+            <a href="#contact" class="btn-primary">Get Started</a>
+        </nav>
+
+        <button class="mobile-menu-btn">
+            <i data-lucide="menu"></i>
+        </button>
+    </div>
+</header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero" id="home">
+    <div class="hero-bg"></div>
+
+    <canvas id="data-network"></canvas>
+
+    <div class="container">
+        <div class="hero-content">
+            <h1 class="hero-title">Turning Data Into <span class="text-gradient">Strategic Advantage</span></h1>
+            <p class="hero-subtitle">
+                XYZ is a niche and boutique AI & Analytics firm 
+                delivering AI-powered consulting, R&D, product development, 
+                and corporate training globally.
+            </p>
+
+            <div class="hero-buttons">
+                <a href="#services" class="btn-primary magnetic-btn">Explore Services</a>
+                <a href="#contact" class="btn-secondary magnetic-btn">Talk to Experts</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+        <!-- Services Section -->
+        <section id="services" class="services section-padding">
+            <div class="container">
+                <div class="section-header">
+                    <span class="badge">WHAT WE DO</span>
+                    <h2>Four <span class="text-gradient">Ways We</span> Create Impact</h2>
+                    <p></p>
+                </div>
+                <div class="services-grid">
+                    <div class="service-card">
+                        <i data-lucide="brain-circuit"></i>
+                        <h3>AI & Analytics Consulting</h3>
+                        <p>We provide data-driven consulting across industries and business functions — helping enterprises solve complex challenges using advanced analytics, AI, and multi-decade cross-functional expertise. From strategy to execution, we leverage Business Analytics, Machine Learning, Econometrics, Balanced Scorecard, Lean & Six Sigma, and Operations Research to drive measurable business outcomes..</p>
+                    </div>
+                    <div class="service-card">
+                        <i data-lucide="trending-up"></i>
+                        <h3>Predictive Modeling</h3>
+                        <p>Our team of extensive industry practitioners with PhDs from premier institutes conduct applied R&D across Artificial Intelligence, Machine Learning, Data Science & Engineering, Econometric/Mathematical/Statistical Analysis and Modeling, and the Fundamental Sciences and Economics that power them — solving problems that sit at the frontier of what's computationally and analytically possible. We partner with enterprises and institutions to develop novel models, algorithms, and frameworks tailored to specific industry challenges.</p>
+                    </div>
+                    <div class="service-card">
+                        <i data-lucide="database"></i>
+                        <h3>Product Development</h3>
+                        <p>We design and build AI-powered data products and platforms — from visual analytics, BI dashboards and forecasting engines to end-to-end analytics platforms and enterprise automation solutions. Our technology stack spans GenAI, Computer Vision, NLP, IoT, Blockchain, and Cloud, with a focus on solutions that are scalable, maintainable, and directly tied to business value.</p>
+                    </div>
+                    <div class="service-card">
+                        <i data-lucide="bar-chart-3"></i>
+                        <h3>Corporate Training</h3>
+                        <p>We deliver executive and technical training programs to enterprise teams, PSUs, and academic institutions — covering AI, Machine Learning, Business Analytics, RPA, and Data Science. Our faculty includes IIM/IIT professors and industry veterans with decades of hands-on consulting experience, ensuring training that is rigorous, practical, and immediately applicable.</p>
+                    </div>
+                
+                </div>
+            </div>
+        </section>
+
+        <!-- Industries Section -->
+        <section id="industries" class="industries section-padding">
+            <div class="container">
+                <div class="industries-flex">
+                    <div class="industries-content">
+                        <span class="badge">Industries</span>
+                        <h2>Tailored Solutions for <span class="text-gradient">Every Sector</span></h2>
+                        <ul class="industry-list">
+                            <li class="active" data-industry="bfsi">Banking, Financial Services & Insurance (BFSI)</li>
+                            <li data-industry="retail">Power/Energy & Utilities</li>
+                            <li data-industry="mfg">Manufacturing & Supply Chain</li>
+                            <li data-industry="gov">Government & Public Sector</li>
+                            <li data-industry="tmt">Tech, Media & Telecom</li>
+                        </ul>
+                    </div>
+                    <div class="industries-display">
+                        <div id="industry-info" class="industry-info-card">
+                            <h3 id="ind-title">Banking, Financial Services & Insurance (BFSI)</h3>
+                            <p id="ind-desc">Implementing high-end risk management, fraud detection, and customer
+                                segmentation models for global financial institutions.</p>
+                            <div class="ind-features">
+                                <span><i data-lucide="check-circle"></i> Risk Scoring</span>
+                                <span><i data-lucide="check-circle"></i> Claims Modeling</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about section-padding">
+            <div class="container flex-center">
+                <div class="about-image">
+                     <img class="about-slider active" src="assets/ins1.png" alt="About INS Analytics">
+                        <img class="about-slider" src="assets/ins2.jpg" alt="About INS Analytics">
+                        <img class="about-slider" src="assets/ins3.jpg" alt="About INS Analytics">
+                </div>
+                <div class="about-text">
+                    <span class="badge">About Us</span>
+                    <h2>Expertise Across Decades <span class="text-gradient">and Disciplines</span></h2>
+                    <p>Our consultants bring multi-decade experience from IITs, IIMs,</p>
+                    <p>Fortune 100 MNCs, global banks, and government bodies.</p>
+                    <div class="about-highlights">
+                        <div class="highlight">
+                            <h4>Cross-Functional</h4>
+                            <p>Subject matter expertise across all disciplines.</p>
+                        </div>
+                        <div class="highlight">
+                            <h4>Global Reach</h4>
+                            <p>Serving world-leading enterprises.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section   >    
+            <div class="team-section">
+
+                <h3 class="team-title">Leadership Team</h3>
+
+                <div class="team-grid">
+
+                    <!-- Founder -->
+                    <div class="team-card">
+                        <img src="images/founder.jpg" alt="Founder">
+
+                        <h4>DGD DA</h4>
+                        <p class="role">Founder & Principal data scientist</p>
+
+                        <p class="bio">
+                            30+ years of experience in data science, AI, and analytics consulting across industries.
+                         </p>
+                    </div>
+
+
+                    <!-- Employee -->
+                    <div class="team-card">
+                        <img src="images/employee1.jpg" alt="Employee">
+
+                        <h4>ABCD XYZ</h4>
+                        <p class="role">Senior Consultant</p>
+
+                        <p class="bio">
+                            Specializes in data analytics and enterprise strategy.
+                        </p>
+                    </div>
+
+                    <!-- Employee -->
+                    <div class="team-card">
+                        <img src="images/employee1.jpg" alt="Employee">
+
+                        <h4>IJKL MNO</h4>
+                        <p class="role">Senior Consultant</p>
+
+                        <p class="bio">
+                            Specializes in data analytics and enterprise strategy.
+                        </p>
+                    </div>
+
+
+                    <!-- Employee -->
+                    <div class="team-card">
+                        <img src="images/employee2.jpg" alt="Employee">
+
+                        <h4>MNOP QRS</h4>
+                        <p class="role">Technology Lead</p>
+
+                        <p class="bio">
+                            Leads product development and AI automation solutions.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact section-padding">
+            <div class="container">
+                <div class="contact-card">
+                    <div class="contact-header">
+                        <h2>Start Your <span class="text-gradient">Analytics Journey</span></h2>
+                        <p>Ready to transform your data? Consult with our experts today.</p>
+                    </div>
+                    <form class="contact-form">
+                        <div class="form-grid">
+                            <input type="text" placeholder="Full Name" required>
+                            <input type="email" placeholder="Business Email" required>
+                            <input type="text" placeholder="Industry" required>
+                            <select>
+                                <option>Subject</option>
+                                <option>Data Consultation</option>
+                                <option>AI Implementation</option>
+                                <option>General Inquiry</option>
+                            </select>
+                        </div>
+                        <textarea placeholder="Tell us about your business problem..."></textarea>
+                        <button type="submit" class="btn-primary w-full">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+            
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact section-padding">
+            <div class="container">
+                <div class="contact-card">
+                    <div class="contact-header">
+                        <h2>Start Your <span class="text-gradient">Analytics Journey</span></h2>
+                        <p>Ready to transform your data? Consult with our experts today.</p>
+                    </div>
+                    <form class="contact-form">
+                        <div class="form-grid">
+                            <input type="text" placeholder="Full Name" required>
+                            <input type="email" placeholder="Business Email" required>
+                            <input type="text" placeholder="Industry" required>
+                            <select>
+                                <option>Subject</option>
+                                <option>Data Consultation</option>
+                                <option>AI Implementation</option>
+                                <option>General Inquiry</option>
+                            </select>
+                        </div>
+                        <textarea placeholder="Tell us about your business problem..."></textarea>
+                        <button type="submit" class="btn-primary w-full">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="#home" class="logo">
+                        <img src="assets/logo.png" alt="INS Analytics" class="logo-img">
+                    </a>
+                    <p>Pioneering data-driven excellence through advanced AI and Machine Learning solutions.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Company</h4>
+                    <a href="#about">About Us</a>
+                    <a href="#services">Services</a>
+                    <a href="#industries">Industries</a>
+                </div>
+                <div class="footer-contact">
+                    <h4>Contact</h4>
+                    <p>Email: gm@XYZ.com</p>
+                    <p>Mumbai: xyz
+                                ADDRESS 1</p>
+                    <p>kolkata Office: ADDRESS 2</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 XYZ. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Chat Widget -->
+    <div id="chat-widget" class="chat-widget">
+        <div class="chat-header">
+            <div class="chat-status"></div>
+            <span>XYZ Support</span>
+            <button id="close-chat"><i data-lucide="x"></i></button>
+        </div>
+        <div class="chat-body" id="chat-messages">
+            <div class="message bot">
+                Hello! How can we help you with your analytics journey today?
+            </div>
+        </div>
+        <div class="chat-input-area">
+            <input type="text" placeholder="Type your message..." id="chat-input">
+            <button id="send-chat"><i data-lucide="send"></i></button>
+        </div>
+    </div>
+    <button id="open-chat" class="chat-toggle">
+        <i data-lucide="message-square"></i>
+    </button>
+
+    <!-- Custom JS -->
+    <script src="js/main.js"></script>
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+
+</html>
